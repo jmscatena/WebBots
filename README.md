@@ -1,54 +1,7 @@
-<style>
-        @keyframes hi  {
-            0% { transform: rotate( 0.0deg) }
-           10% { transform: rotate(14.0deg) }
-           20% { transform: rotate(-8.0deg) }
-           30% { transform: rotate(14.0deg) }
-           40% { transform: rotate(-4.0deg) }
-           50% { transform: rotate(10.0deg) }
-           60% { transform: rotate( 0.0deg) }
-          100% { transform: rotate( 0.0deg) }
-        }
-
-
-        .container {
-          background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-          background-size: 400% 400%;
-          animation: gradient 15s ease infinite;
-
-          width: 100%;
-          height: 300px;
-
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          color: white;
-
-          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-        }
-
-        .hi {
-          animation: hi 1.5s linear -0.5s infinite;
-          display: inline-block;
-          transform-origin: 70% 70%;
-        }
-
-        @media (prefers-reduced-motion) {
-          .container {
-            animation: none;
-          }
-
-          .hi {
-            animation: none;
-          }
-        }
-</style>
-<div class="container">
-  <h1>Minicurso sobre WebBots - WebCrawler e WebScrapping </h1>
-  <hr>
-  <h3 class="text-center">Desenvolvidos para: Faculdade de Tecnologia - Fatec Araraquara</h3>
-  <hr>
-  <h3 class="text-center">Evento: Semana de Estudos 2025</h3>
-  <h4>Data Evento: 28 - 30/04/2025</h4>
-  <h4>Data Minicurso: 30/04/2025</h4>
-</div>
+<h1>Minicurso sobre WebBots - WebCrawler e WebScrapping </h1>
+<hr>
+<h3 class="text-center">Desenvolvidos para: Faculdade de Tecnologia - Fatec Araraquara</h3>
+<hr>
+<h3 class="text-center">Evento: Semana de Estudos 2025</h3>
+><h4>Data Evento: 28 - 30/04/2025</h4>
+><h4>Data Minicurso: 30/04/2025</h4>
